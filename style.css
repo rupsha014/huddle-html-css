@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;400;800&family=Poppins:wght@400;600&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+/*
+    font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
+*/
+body{
+   min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(./images/bg-desktop.svg);
+    background-repeat: no-repeat;
+    background-color:  hsl(257, 40%, 49%);
+    background-size:cover;
+    width: 100%;
+    
+    
+
+}
+
+.huddle{
+    max-width: 1440px;
+    justify-content: space-around;
+}
+.logo {
+    padding-bottom: 50px;
+}
+.top{
+    display: flex;
+    column-gap: 50px;
+
+}
+.content{
+ padding-top: 70px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.content h1{
+    font-size: 43px;
+    row-gap: 7px;
+    font-family: 'Outfit', sans-serif;
+    color: white;
+}
+.content p{
+
+    font-size: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.a{
+    padding-top: 35px;
+}
+.b{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.c{
+    padding-bottom: 20px;
+}
+
+
+.content button{
+    padding: 11px 40px;
+    border-radius: 20px;
+    color: indigo;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 15px;
+    cursor:pointer;
+    transition: all linear;
+    
+
+    
+    
+}
+.content button:hover{
+    background: hsl(300, 69%, 71%);
+    color: white;
+
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    column-gap: 15px;  
+}
+
+.f{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+    
+
+}
+.f :hover{
+    color: hsl(300, 69%, 71%);
+}
+
+.t{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer; 
+}
+.t :hover{
+    color: hsl(300, 69%, 71%);
+    
+}
+.i{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:pointer;
+}
+.i :hover{
+    color: hsl(300, 69%, 71%);
+    
+}
